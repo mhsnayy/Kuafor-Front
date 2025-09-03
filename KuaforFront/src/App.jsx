@@ -1,14 +1,22 @@
-import { useState } from 'react'
-import './App.css'
+
+import React ,{ useState,useEffect } from "react"
+import Test from "./components/test"
 
 function App() {
-  const [count, setCount] = useState(0)
+
+  const [name,setName]=useState("react")
+
+
+  useEffect(()=>{
+    setTimeout(() => {
+    setName("react güncellendi")
+    }, 3000);
+
+  },[])
 
   return (
     <>
-      <div>
-        selam
-      </div>
+    {name}
     </>
   )
 }
