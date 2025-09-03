@@ -1,22 +1,16 @@
 
 import React ,{ useState,useEffect } from "react"
-import Test from "./components/test"
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom';
+import PageContainer from "./containers/PageContainer"
+import Header from './pages/Admin/components/Header'
 
 function App() {
 
-  const [name,setName]=useState("react")
-
-
-  useEffect(()=>{
-    setTimeout(() => {
-    setName("react güncellendi")
-    }, 3000);
-
-  },[])
-
   return (
     <>
-    {name}
+    <PageContainer>
+      <Header/>
+    </PageContainer>
     </>
   )
 }
