@@ -1,7 +1,7 @@
-.homeHeader{
-    border: 2px solid black;
-    width: fit-content;
-    height: fit-content;
-    margin-bottom: 10px;
+.mbottom{
+    margin-bottom: 50px;
 }
 
+.mright{
+    margin-right: 30px;
+}

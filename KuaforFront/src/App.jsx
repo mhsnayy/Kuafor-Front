@@ -6,6 +6,8 @@ import './App.css'
 import Home from './pages/Home/Home'
 import Admin from './pages/Admin/Admin'
 import Info from './pages/Info/Info'
+import MuıButton from "./containers/deneme/MuıButton"
+import MuıTextFiled from "./containers/deneme/MuıTextFiled";
 
 function App() {
 
@@ -13,8 +15,9 @@ function App() {
 
   return (
     <>
-
-    <PageContainer>
+    {
+      /*
+      <PageContainer>
        <Router>
       <Routes>
         <Route path="/" element={<Home/>}/>
@@ -23,6 +26,16 @@ function App() {
       </Routes>
     </Router>
     </PageContainer>
+      */
+    }
+
+
+    <PageContainer>
+    <MuıButton/>
+    <MuıTextFiled/>
+    </PageContainer>
+
+
    
     </>
   )

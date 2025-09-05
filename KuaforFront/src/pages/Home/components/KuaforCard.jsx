@@ -10,16 +10,16 @@ import BerberFoto from "../../../assets/Berber.jpg";
 
 function KuaforCard() {
   return (
-    <Card sx={{ maxWidth: 300 }}>
+    <Card sx={{ maxWidth: 500 }} >
       <CardMedia
       component="img"
-      height="180"
+      height="200"
       image={BerberFoto} // baştaki / önemli
       alt="Berber dükkanı"  
       />
 
       {/* İçerik */}
-      <CardContent>
+      <CardContent >
         <Typography gutterBottom variant="h6" component="div">
           Ahmet Barber
         </Typography>
