@@ -15,8 +15,7 @@ function App() {
 
   return (
     <>
-    {
-      /*
+    
       <PageContainer>
        <Router>
       <Routes>
@@ -26,15 +25,11 @@ function App() {
       </Routes>
     </Router>
     </PageContainer>
-      */
-    }
+      
+    
 
 
-    <PageContainer>
-    <MuıButton/>
-    <MuıTextFiled/>
-    </PageContainer>
-
+  
 
    
     </>
